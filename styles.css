@@ -1,0 +1,151 @@
+
+:root {
+  --black-color: #000000;
+  --gray-color: #C2C8DA;
+  --white-color: #FFFFFF;
+  --yellow-background-color: #E6C744;
+  --black-background-color: #000000;
+  --grey-background-color: #C2C8DA;
+  --lightgray-background-color:#F4F6F5;
+}
+/* CSS */
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+  body{
+    font-family: "poppins", sans-serif;  
+  }
+  .header,
+.CATALOGUE,
+.FASHION,
+.FAVOURITE,
+ .LIFESTYLE{
+  color: var(--black-color);
+  font-size: 14px; /* Розмір шрифту */
+  font-weight: 500;
+}
+.contener  {
+    width: 1200px;
+    margin: auto;
+    padding: 15px 0;
+    box-sizing: border-box;
+  }
+  .header {
+    padding: 24px 25px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerlu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+  .logo,
+  .headerli {
+    color: var(--black-color);
+  font-size: 22px; /* Розмір шрифту */
+  font-weight: 500;
+  }
+  .smuga {
+    background-color: var(--yellow-background-color);
+  }
+  .efectin-solushns {
+    border-radius: 35px;
+    display: flex;
+    background-color: var(--lightgray-background-color) ;
+    height: 852px;
+    width: 1720px;
+    margin-left:center;
+  }
+   
+ 
+  
+  
+
+
+  .form {	
+   
+      width: 360px;
+      background: #fff;
+      color: input-text-color;
+      font: inherit;
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+      border: 0;
+      outline: 0;
+      padding: 22px 18px;
+    }
+.sectisimg {
+  border-radius: 5px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+    background-position: right;
+    height: 784px;
+    width: 871px;
+}
+.diiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.sectisim {
+  margin: 0;
+  border: 1px solid whitesmoke;
+}
+.sectisfigcaption {
+  margin-left: 24px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.itemli {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+padding: 0;
+list-style: none;
+}
+.buttin-hover {
+  border: 0px;
+  padding: 6px 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;  
+}
