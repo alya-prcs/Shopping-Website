@@ -43,7 +43,11 @@
 }
 
   body{
-    font-family: "poppins", sans-serif;  
+    font-family: "poppins", sans-serif; 
+      margin: 0;
+      font-family: sans-serif;
+      line-height: 1.5;
+      background-color: #f9f9fd;
   }
   .header,
 .CATALOGUE,
@@ -54,12 +58,14 @@
   font-size: 14px; /* Розмір шрифту */
   font-weight: 500;
 }
-.contener  {
-    width: 1200px;
-    margin: auto;
-    padding: 15px 0;
-    box-sizing: border-box;
-  }
+
+    .container {
+      width: 1720px;
+      margin: 0 auto;
+      padding:  15px 0;
+      box-sizing: border-box;
+    }
+
   .header {
     padding: 24px 25px;
   }
@@ -71,8 +77,9 @@
   .headerlu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
+    align-items: center;
   }
   .logo,
   .headerli {
@@ -83,22 +90,14 @@
   .smuga {
     background-color: var(--yellow-background-color);
   }
-  .efectin-solushns {
-    border-radius: 35px;
-    display: flex;
+  .dvvv {
     background-color: var(--lightgray-background-color) ;
-    height: 852px;
-    width: 1720px;
-    margin-left:center;
+    border-radius: ;
   }
-   
- 
-  
-  
-
-
+.diiiv{
+  width: 50%;
+}
   .form {	
-   
       width: 360px;
       background: #fff;
       color: input-text-color;
@@ -107,15 +106,24 @@
       border: 0;
       outline: 0;
       padding: 22px 18px;
+      border-radius: 5px;
+    }
+    .btn {
+      background-color: var(--black-background-color);
+      color: var(--white-color);
     }
 .sectisimg {
-  border-radius: 5px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-repeat: repeat-y;
-    background-position: right;
-    height: 784px;
-    width: 871px;
+ width: 50%;
+}
+.efectin-solushns .contener {
+display: flex;
+}
+.sect-gradient {
+  background: linear-gradient(to bottom left,#E6C744 , #e8d16a);
+
+}
+.dyv {
+  display: flex;
 }
 .diiv {
   display: flex;
@@ -123,11 +131,13 @@
   padding: 0;
   margin: 0;
 }
-.sectisim {
-  margin: 0;
-  border: 1px solid whitesmoke;
+.dev {
+display: flex;
 }
-.sectisfigcaption {
+.dax {
+  display: flex;
+}
+.sectisfigcaption-gradient {
   margin-left: 24px;
 }
 *{
@@ -148,4 +158,22 @@ list-style: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;  
+}
+.sectisim {
+  height:  710px;
+  width: 671px;
+}
+.JOIN-SHOPPING {
+  background-color: var(--yellow-background-color);
+  color: var(--white-color);
+}
+.footer {
+  background-color: var(--black-background-color);
+
+}
+.h2 {
+  color: var(--white-color);
+}
+.text {
+  color: var(--gray-color);
 }
