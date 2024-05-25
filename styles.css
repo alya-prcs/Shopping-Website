@@ -35,6 +35,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 100%;
+
 }
 
 .button-31:hover,
@@ -55,8 +56,10 @@
 .FAVOURITE,
  .LIFESTYLE{
   color: var(--black-color);
-  font-size: 14px; /* Розмір шрифту */
+  font-size: 22px; /* Розмір шрифту */
   font-weight: 500;
+  text-indent: 50px;
+  text-decoration: none;
 }
 
     .container {
@@ -91,14 +94,77 @@
     background-color: var(--yellow-background-color);
   }
   .dvvv {
-    background-color: var(--lightgray-background-color) ;
-    border-radius: ;
+    display: flex;
+    background-color: var(--lightgray-background-color);
   }
 .diiiv{
-  width: 50%;
+  width: 474px;
+height: 473px;
+}
+.dav {
+  width: 666.39px;
+height: 684.76px;
+}
+.ddd{
+  width: 507px;
+height: 382px;
+}
+.efectin-solushns {
+  height: 900px;
+}
+.dq{
+  display: flex;
+}
+.hd{
+font-size: 96px; /* Розмір шрифту */
+  font-weight: 474;
+}
+.pd{
+  font-size: 32px;
+}
+.zagolovok {
+  font-size: 48px;
+}
+.h3{
+  font-size: 32px;
+}
+.p{
+  font-size: 24px;
+}
+.as {
+  display: flex;
+}
+.ass{
+  display: flex;
+}
+.xd {
+  font-size: 111.61px;
+}
+.tt {
+  font-size: 36.04px;
+}
+.tr {
+  font-size: 36.04px;
+  width: 700;
+}
+.ho{
+  font-size: 55px;
+}
+.hi {
+font-size: 32px;
+}
+
+.ww {
+  font-size: 48px;
+}
+.yy{
+font-size: 24px;
+}
+.strilka {
+  margin-left: auto;
 }
   .form {	
-      width: 360px;
+      width: 460px;
       background: #fff;
       color: input-text-color;
       font: inherit;
@@ -107,19 +173,26 @@
       outline: 0;
       padding: 22px 18px;
       border-radius: 5px;
+      margin-left: auto;
+    margin-right: auto;
+    }
+    .form__field{
+      font-size: 24px;
     }
     .btn {
       background-color: var(--black-background-color);
       color: var(--white-color);
+      font-size: 33px;
     }
 .sectisimg {
  width: 50%;
+
 }
 .efectin-solushns .contener {
 display: flex;
 }
-.sect-gradient {
-  background: linear-gradient(to bottom left,#E6C744 , #e8d16a);
+.sect  {
+  background:  linear-gradient(to right, #ecd678, #E6C744);
 
 }
 .dyv {
@@ -166,6 +239,7 @@ list-style: none;
 .JOIN-SHOPPING {
   background-color: var(--yellow-background-color);
   color: var(--white-color);
+  text-align: center
 }
 .footer {
   background-color: var(--black-background-color);
@@ -176,4 +250,8 @@ list-style: none;
 }
 .text {
   color: var(--gray-color);
+  list-style-type: none;
+}
+.dext {
+  display: flex;
 }
