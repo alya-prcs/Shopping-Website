@@ -97,18 +97,16 @@
     display: flex;
     background-color: var(--lightgray-background-color);
   }
-.diiiv{
-  width: 474px;
-height: 473px;
-}
+
 .dav {
   width: 666.39px;
 height: 684.76px;
 }
-.ddd{
-  width: 507px;
-height: 382px;
+.diiiv{
+  padding-left: 119px;
+  
 }
+
 .efectin-solushns {
   height: 900px;
 }
@@ -118,6 +116,7 @@ height: 382px;
 .hd{
 font-size: 96px; /* Розмір шрифту */
   font-weight: 474;
+  width: 474px;
 }
 .pd{
   font-size: 32px;
@@ -204,8 +203,13 @@ display: flex;
   padding: 0;
   margin: 0;
 }
+.dev > * {
+  width: 50%;
+}
 .dev {
 display: flex;
+align-items: center;
+justify-content: space-between;
 }
 .dax {
   display: flex;
@@ -233,8 +237,7 @@ list-style: none;
   line-height: 1.62;  
 }
 .sectisim {
-  height:  710px;
-  width: 671px;
+  
 }
 .JOIN-SHOPPING {
   background-color: var(--yellow-background-color);
@@ -251,8 +254,11 @@ list-style: none;
 .text {
   color: var(--gray-color);
   list-style-type: none;
+  margin: left;
 }
 
 .dext {
   display: flex;
+  justify-content: space-between;
+  margin: left;
 }
