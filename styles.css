@@ -252,6 +252,7 @@ list-style: none;
   color: var(--gray-color);
   list-style-type: none;
 }
+
 .dext {
   display: flex;
 }
