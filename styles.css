@@ -91,22 +91,29 @@
   font-weight: 500;
   }
   .smuga {
-    background-color: var(--yellow-background-color);
+        background-color: var(--yellow-background-color);
   }
   .dvvv {
     display: flex;
     background-color: var(--lightgray-background-color);
   }
-
+  .headelu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  margin: left;
+  }
+.rrr {
+  width: 118.26px;
+  height: 69.51px;
+}
 .dav {
   width: 666.39px;
 height: 684.76px;
 }
 .diiiv{
   padding-left: 119px;
-  
 }
-
 .efectin-solushns {
   height: 900px;
 }
@@ -191,7 +198,7 @@ font-size: 24px;
 display: flex;
 }
 .sect  {
-  background:  linear-gradient(to right, #ecd678, #E6C744);
+  background:  linear-gradient(to right, #e9d167, #E6C744);
 
 }
 .dyv {
@@ -213,6 +220,7 @@ justify-content: space-between;
 }
 .dax {
   display: flex;
+  justify-content: space-between;
 }
 .sectisfigcaption-gradient {
   margin-left: 24px;
@@ -250,15 +258,24 @@ list-style: none;
 }
 .h2 {
   color: var(--white-color);
+  font-size: 40px;
 }
 .text {
   color: var(--gray-color);
   list-style-type: none;
-  margin: left;
+  margin-bottom: 20px;
+font-size: 24px;
 }
-
+.tex {
+  color: var(--gray-color);
+  list-style-type: none;
+  margin: left;
+  padding-bottom: 30px; 
+  font-size: 24px;
+  flex-direction: column; /* Розміщення списків вертикально */
+            gap: 20px;
+}
 .dext {
   display: flex;
   justify-content: space-between;
-  margin: left;
 }
